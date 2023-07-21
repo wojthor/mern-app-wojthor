@@ -7,6 +7,7 @@ const { connectDB } = require("./config/db");
 const port = process.env.PORT;
 connectDB();
 
+const uri = process.env.MONGODB_URI;
 const app = express();
 
 app.use(express.json());

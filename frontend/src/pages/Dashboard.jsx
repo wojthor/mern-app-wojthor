@@ -40,7 +40,7 @@ function Dashboard() {
   return (
     <>
       <section className="heading">
-        <h1>Welcome {user && user.name}</h1>
+        <h1 className="welcome">Welcome {user && user.name}</h1>
         <p>Goals Dashboard</p>
       </section>
 
