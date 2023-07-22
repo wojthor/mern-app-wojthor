@@ -98,6 +98,9 @@ h3 {
   margin: 10px 0;
   padding: 20px 0 10px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .goal .close {
@@ -216,18 +219,24 @@ h3 {
 }
 
 .wojthor {
-  font-family: "Bungee Spice", cursive;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  font-family: "Roboto", sans-serif;
+
   color: #000000;
   font-size: 15px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .wojthor a {
   color: inherit;
   text-decoration: none;
+}
+
+.div-outer {
+  display: flex;
+  justify-content: space-around;
 }
 
 .header .logo a {
@@ -241,4 +250,26 @@ h3 {
 
 .heading .welcome {
   color: #000;
+}
+
+.goal-done {
+  background-color: #56e38c;
+}
+
+.update-buttton {
+  padding: 10px 20px;
+  margin: 0 30px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+}
+
+.update-buttton:hover {
+  background: #555;
 }

@@ -22,7 +22,7 @@ function App() {
       <ToastContainer />
 
       <a href="https://github.com/wojthor" target="_blank">
-        <h6 className="wojthor">created by wojthor</h6>
+        <footer className="wojthor">created by wojthor</footer>
       </a>
     </>
   );
