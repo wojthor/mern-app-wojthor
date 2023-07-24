@@ -2,7 +2,6 @@ import { FaSignInAlt, FaSignOutAlt, FaUser } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { logout, reset } from "../features/auth/authSlice";
-import { AiTwotoneTrophy } from "react-icons/ai";
 
 function Header() {
   const navigate = useNavigate();
@@ -20,8 +19,8 @@ function Header() {
       <div className="logo">
         <Link to="/">GoalSetter</Link>
       </div>
-      <div className="trophy">
-        <AiTwotoneTrophy />
+      <div className="image">
+        <img src="logo.jpg" alt="logo" />
       </div>
       <ul>
         {user ? (
